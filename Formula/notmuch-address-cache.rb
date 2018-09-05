@@ -4,7 +4,7 @@ class NotmuchAddressCache < Formula
   url "https://github.com/mbauhardt/notmuch-address-cache/archive/0.1.tar.gz"
   sha256 "db43c114184f402c9baba20215f0cf57cc83b4701f034b96f0511b3c81463088"
 
-  depends_on "notmuch" => :run
+  depends_on "notmuch" => :recommended
 
   def install
     bin.install "bin/notmuch-address-cache"
